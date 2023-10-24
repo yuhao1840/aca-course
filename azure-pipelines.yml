@@ -45,6 +45,7 @@ stages:
         tags: '$(TAG)'
 
 - stage: Deploy
+  dependsOn: Build
   displayName: Deploy to Container Apps
   jobs:
   - job: Deploy
