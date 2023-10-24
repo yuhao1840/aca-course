@@ -8,8 +8,10 @@ trigger:
     exclude:
     - Readme.md
 
+
 resources:
 - repo: self
+
 
 variables:
   IMAGE_NAME: houssemdocker/album-backend-api
