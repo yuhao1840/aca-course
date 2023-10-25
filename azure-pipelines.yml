@@ -12,7 +12,7 @@ resources:
 - repo: self
 
 variables:
-  IMAGE_NAME: yuhao1840/album-backend-api
+  IMAGE_NAME: yuhaoaousc/album-backend-api
   CONTAINERAPPS_APP: album-backend-api
   CONTAINERAPPS_ENVIRONMENT: aca-environment
   RESOURCE_GROUP: rg-containerapps-azure-pipelines
